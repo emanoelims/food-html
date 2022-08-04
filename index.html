@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Application</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="header">
+  <h1 class="header__title">
+    Emm<strong>Food</strong>
+  </h1>
+</header>
+<div class="content">
+  <nav class="navigation">
+    <a href="#" class="navigation__link active">Tudo</a>
+    <a href="#" class="navigation__link">Salgados</a>
+    <a href="#" class="navigation__link">Doces</a>
+    <a href="#" class="navigation__link">Bebidas</a>
+  </nav>
+  <main>
+    <section class="products">
+      <article class="products__item">
+        <img class="products__item-image" src="./img/food.jpg" alt="">
+        <h2 class="products__item-title">Espetinho DoBom</h2>
+        <p class="products__item-description">o melhor espetinho da cidade</p>
+        <div class="products__item-row">
+          <span class="products__item-price">R$ 59,00</span>
+          <div class="products__item-quantity">
+            <button class="products__item-quantity-button products__item-quantity-button--minus">-</button>
+            <span class="products__item-quantity-value">1</span>
+            <button class="products__item-quantity-button products__item-quantity-button--plus">+</button>
+          </div>
+        </div>
+        <button class="products__item-button">Adicionar ao carrinho</button>
+      </article>
+      <article class="products__item">
+        <img class="products__item-image" src="./img/food.jpg" alt="">
+        <h2 class="products__item-title">Espetinho DoBom</h2>
+        <p class="products__item-description">o melhor espetinho da cidade</p>
+        <div class="products__item-row">
+          <span class="products__item-price">R$ 59,00</span>
+          <div class="products__item-quantity">
+            <button class="products__item-quantity-button products__item-quantity-button--minus">-</button>
+            <span class="products__item-quantity-value">1</span>
+            <button class="products__item-quantity-button products__item-quantity-button--plus">+</button>
+          </div>
+        </div>
+        <button class="products__item-button">Adicionar ao carrinho</button>
+      </article>
+      <article class="products__item">
+        <img class="products__item-image" src="./img/food.jpg" alt="">
+        <h2 class="products__item-title">Espetinho DoBom</h2>
+        <p class="products__item-description">o melhor espetinho da cidade</p>
+        <div class="products__item-row">
+          <span class="products__item-price">R$ 59,00</span>
+          <div class="products__item-quantity">
+            <button class="products__item-quantity-button products__item-quantity-button--minus">-</button>
+            <span class="products__item-quantity-value">1</span>
+            <button class="products__item-quantity-button products__item-quantity-button--plus">+</button>
+          </div>
+        </div>
+        <button class="products__item-button">Adicionar ao carrinho</button>
+      </article>
+    </section>
+  </main>
+  <aside class="cart">
+    <h2 class="cart__title">Carrinho</h2>
+    <ul class="cart__list">
+      <li class="cart__item">
+        <img class="cart__item-image" src="./img/food.jpg" alt="">
+        <div class="cart__item-content">
+          <h3 class="cart__item-title">Espetinho DoBom</h3>
+          <p class="cart__item-description">o melhor espetinho da cidade</p>
+          <div class="cart__item-footer">
+            <p class="cart__item-price">R$ 10,00</p>
+            <div class="cart__item-quantity">
+              <button class="cart__item-quantity-button" type="button">-</button>
+              <span class="cart__item-quantity-value">1</span>
+              <button class="cart__item-quantity-button" type="button">+</button>
+            </div>
+          </div>
+        </div>
+        <button class="cart__item-remove">Remover</button>
+      </li>
+    </ul>
+    <div class="cart__footer">
+      <p class="cart__total">Total: R$ 10,00</p>
+      <button class="cart__checkout">Finalizar Compra</button>
+    </div>
+  </aside>
+</div>
+</body>
+</html>
